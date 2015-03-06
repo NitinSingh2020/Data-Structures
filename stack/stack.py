@@ -1,5 +1,11 @@
-class Stack:
-    def __init__(self, numberOfElements = 0):
+"""
+Module implements data structure class for stack
+"""
+class Stack(object):
+    """
+    Class of list of
+    """
+    def __init__(self, numberOfElements=0):
         """
         Initializes the list/array of numberOfElements zeros
         """
