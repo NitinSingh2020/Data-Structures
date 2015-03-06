@@ -23,7 +23,6 @@ class Stack:
         """
         Prints the list in one line
         """
-        print "Inside show function"
         print '[',
         for elem in self.data:
             print(elem),
